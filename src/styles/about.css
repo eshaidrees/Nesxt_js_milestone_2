@@ -1,0 +1,100 @@
+.about-content {
+    display: flex;
+    background-color:  #1E2A47;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+    gap:20px
+}
+  
+.title {
+    font-size: 3rem;
+    color: #333;
+}
+
+.about-left-container {
+    width: 50%;
+    height: 400px;
+    background-color:  #1E2A47;
+    justify-items: center;
+}
+
+.about-right-container {
+    width: 40%;
+    height: 400px;
+    gap: 50px;
+    font-family: 'Arial', sans-serif;
+    background-color:  #1E2A47;
+    justify-items: left;
+    padding: 10px;
+    padding-top: 2%;
+
+}
+  
+.about-content h1 {
+    font:bold;
+    font-size: 2rem;
+    margin-bottom: 1rem; 
+    color: white;
+}
+
+.about-right-container p {
+    text-align: left;
+    color: white;
+}
+
+
+.profile-picture {
+    width: 300px;
+    height: 300px;
+    margin-top: 0;
+    margin-bottom: 20%;
+    border-radius: 50%;
+    align-items: center; 
+    border:10px;
+    border-color: blue;
+}
+ 
+
+
+/* Responsive styles for laptop screens */
+@media (max-width: 1024px) {
+    .home-content {
+        padding: 3rem;
+        gap: 15px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .home-left-container, .home-right-container {
+        width: 45%; /* Adjust the width to fit better on laptops */
+    }
+}
+
+/* Responsive styles for tablet and mobile screens */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 10px;
+    }
+
+    .title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about-left-container, .about-right-container {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        text-align: center; /* Center align text on smaller screens */
+    }
+
+    .about-right-container p {
+        text-align: left; /* Center align paragraph text on mobile */
+    }
+
+}

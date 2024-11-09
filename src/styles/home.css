@@ -1,0 +1,109 @@
+.home-content {
+    display: flex;
+    background-color: #1E2A47;
+    justify-content: center;
+    padding: 5rem;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+.title {
+    font-size: 3rem;
+    color: #333;
+}
+  
+.home-content h1 {
+    font:bold;
+    font-size: 2rem;
+    margin-bottom: 1rem; 
+    color: white;
+}
+
+
+.home-left-container {
+    width: 40%;
+    height: 400px;
+    gap: 50px;
+    font-family: 'Arial', sans-serif;
+    justify-items: left;
+    padding: 10px;
+    padding-top: 2%;
+}
+
+.home-left-container p {
+    text-align: left;
+    color: white;
+}
+
+.home-right-container {
+    width: 50%;
+    height: 400px;
+    justify-items: center;
+}
+
+
+.typing {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid;
+    animation: typing 1s steps(20) infinite, blink 0.5s step-end infinite;
+    animation-iteration-count: 1; 
+  }
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }  
+
+@keyframes blink {
+    50% { border-color:transparent; }
+  }
+
+
+
+/* Responsive styles for laptop screens */
+@media (max-width: 1024px) {
+    .home-content {
+        padding: 3rem;
+        gap: 15px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .home-left-container, .home-right-container {
+        width: 45%; /* Adjust the width to fit better on laptops */
+    }
+}
+
+
+/* Responsive styles for tablet and mobile screens */
+@media (max-width: 768px) {
+  .home-content {
+      flex-direction: column;
+      padding: 2rem;
+      gap: 10px;
+  }
+
+  .title {
+      font-size: 2rem;
+      text-align: center;
+  }
+
+  .home-left-container, .home-right-container {
+      width: 100%;
+      height: auto;
+      padding: 1rem;
+      text-align: center; /* Center align text on smaller screens */
+  }
+
+  .home-left-container p {
+      text-align: left; /* Center align paragraph text on mobile */
+  }
+
+  .typing {
+      font-size: 1.5rem; /* Adjust font size for typing effect on mobile */
+  }
+}
