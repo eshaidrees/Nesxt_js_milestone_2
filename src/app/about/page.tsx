@@ -16,7 +16,7 @@ export default function About (){
            </div>
            <div className="about-right-container">
              <h1>About Me</h1>
-             <p>I'm an intermediate-level student. I recently completed a few steps in learning HTML, CSS, TypeScript, and JavaScript. Currently, I'm learning Next.js and am on the way to exploring Artificial Intelligence.</p>
+             <p>I&apos;m an intermediate-level student. I recently completed a few steps in learning HTML, CSS, TypeScript, and JavaScript. Currently, I&apos;m learning Next.js and am on the way to exploring Artificial Intelligence.</p>
            </div> 
         </div>
 
