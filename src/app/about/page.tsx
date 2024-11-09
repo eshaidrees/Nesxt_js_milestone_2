@@ -5,7 +5,7 @@ export default function About (){
   return (
        <div className="about-content">
           <title className="title">About</title>
-           <div className='about-left-container'>
+           <div className="about-left-container">
              <Image 
              className="profile-picture" 
              src="/img/image_2.png" 
