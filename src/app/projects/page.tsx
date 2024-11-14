@@ -32,7 +32,7 @@ export default function About (){
             height={350} 
            />
             <button className="button">
-               <a href="https://hachathonemilestone3.vercel.app/" target="_blank" rel="noopener noreferrer">
+               <a href="https://hackathon-milestone-5-omega-gules.vercel.app/" target="_blank" rel="noopener noreferrer">
                Click to View.
                </a>
             </button>
