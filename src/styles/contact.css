@@ -2,23 +2,16 @@
   font-family: Arial, sans-serif;
     background-color: #1E2A47;
     padding: 2rem;
-    min-height: 80vh;
+    min-height: 100vh;
     text-align: center;
   }
   
-.title {
-    font-size: 3rem;
-    color: #333;
-}
-  
-
 .contact-content h1 {
     margin-bottom: 1rem;
     font: bold;
     font-size: 2rem;
     color: white;
   }
-  
 
 .form {
     max-width: 600px;

@@ -4,7 +4,7 @@ import "../../styles/contact.css"
 export default function Contact(){
   return (
     <div className="contact-content">
-        <title className="title">Contact</title>
+        <title>Contact</title>
         <h1>Contact Me</h1>
       <div className="form">
         <form action="https://api.web3forms.com/submit" method="POST">

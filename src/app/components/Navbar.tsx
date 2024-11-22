@@ -1,10 +1,10 @@
 import Link from "next/link";
-import "../../styles/header.css";
+import "../../styles/navbar.css";
 
 export default function Navbar() {
   return (
     <div className="container">
-      <h2>My Portfolio</h2>
+      <h2><Link href="/">My Portfolio</Link></h2>
       <ul className="list">
         <li><Link href="/home">Home</Link></li>
         <li><Link href="/about">About</Link></li>

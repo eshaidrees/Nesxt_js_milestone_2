@@ -1,4 +1,3 @@
-import React from "react"
 import Home from "./home/page"
 import Projects from "./projects/page"
 import About from "./about/page"

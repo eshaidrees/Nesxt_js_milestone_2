@@ -2,15 +2,11 @@
     display: flex;
     background-color: #1E2A47;
     justify-content: center;
+    text-align: center;
     padding: 5rem;
     gap: 20px;
-    flex-wrap: wrap;
   }
-  
-.title {
-    font-size: 3rem;
-    color: #333;
-}
+
   
 .home-content h1 {
     font:bold;
@@ -38,9 +34,21 @@
 .home-right-container {
     width: 50%;
     height: 400px;
+    background-color:  #1E2A47;
     justify-items: center;
 }
 
+
+.profile-picture {
+    width: 300px;
+    height: 300px;
+    margin-top: 0;
+    margin-bottom: 20%;
+    border-radius: 50%;
+    align-items: center; 
+    border:10px;
+    border-color: blue;
+}
 
 .typing {
     display: inline-block;
@@ -69,9 +77,6 @@
         gap: 15px;
     }
 
-    .title {
-        font-size: 2.5rem;
-    }
 
     .home-left-container, .home-right-container {
         width: 45%; /* Adjust the width to fit better on laptops */
@@ -87,21 +92,16 @@
       gap: 10px;
   }
 
-  .title {
-      font-size: 2rem;
-      text-align: center;
-  }
 
-  .home-left-container, .home-right-container {
-      width: 100%;
-      height: auto;
-      padding: 1rem;
-      text-align: center; /* Center align text on smaller screens */
+  .home-right-container, .home-left-container {
+    width: 100%;
+    height: auto;
+    text-align: center; /* Center align text on smaller screens */
   }
 
   .home-left-container p {
       text-align: left; /* Center align paragraph text on mobile */
-  }
+   }
 
   .typing {
       font-size: 1.5rem; /* Adjust font size for typing effect on mobile */
